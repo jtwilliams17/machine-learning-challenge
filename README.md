@@ -50,6 +50,13 @@ In this homework assignment, you will need to:
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
+* Ranking of Test Accuracy:
+    1. Nueral Network - 0.877
+    2. kNN - 0.501
+    3. Logistic Regression - 0.432
+* The deep learning model showed to be much more accurate than the other two classification models. This is expected since that model used a little over 14,000 parameters and is a more in depth model creation. It also correctly predicted all 5 of the test results after the model creation. I would be comfortbale using the deep learning model for predictions, but not the other two. their accuracy scores on the test data were too low to consistently predict results correctly. 
+* The models would be greatly improved with more data. This data set only inlcuded ~7,000 rows of data. Doubling that amount could really improve the model predictors. I would've also preferred a binary decision making (planet vs. not), whereas this data had three options in the target column, which I assume is a standard scientific judgement for that column.
+
 - - -
 
 ## Resources
