@@ -52,7 +52,7 @@ In this homework assignment, you will need to:
     2. kNN - 0.501
     3. Logistic Regression - 0.432
 * The deep learning model showed to be much more accurate than the other two classification models. This is expected since that model used a little over 14,000 parameters and is a more in depth model creation. It also correctly predicted all 5 of the test results after the model creation. I would be comfortbale using the deep learning model for predictions, but not the other two. their accuracy scores on the test data were too low to consistently predict results correctly. 
-* The models would be greatly improved with more data. This data set only inlcuded ~7,000 rows of data. Doubling that amount could really improve the model predictors. I would've also preferred a binary decision making (planet vs. not), whereas this data had three options in the target column, which I assume is a standard scientific judgement for that column.
+* The models would be greatly improved with more data. This data set only inlcuded ~7,000 rows of data. Doubling that amount could really improve the model predictors. I would've also preferred a binary decision making (planet vs. not), whereas this data had three options in the target column, which I assume is the standard scientific variable for that area.
 
 - - -
 
